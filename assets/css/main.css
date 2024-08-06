@@ -1784,11 +1784,11 @@ input, select, textarea {
 
 	#banner {
 		text-align: center;
-		width: 940px;
+		width: 1000px;
 		margin: 0 auto;
 		overflow: hidden;
 		padding: 9em 0 6em 0;
-		margin-top: -100px; /* Move the banner up by 100 pixels */
+		margin-top: -110px; /* Move the banner up by 100 pixels */
 	}
 
 		#banner h2 {
