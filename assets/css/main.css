@@ -1600,6 +1600,23 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 
+		div.flexbox {
+			display: flex;
+			width: 100%;
+			padding: 10px;
+			justify-conent: space-evenly;
+			align-items: left;
+		  }
+		div.flexbox .element {
+			padding: 10px;
+			flex-grow: 1;
+		  }
+		  .element img {
+			max-height: auto;
+			width: 100pix;
+		  }
+
+
 /* Box */
 
 	.box.excerpt {
