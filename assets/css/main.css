@@ -1875,8 +1875,40 @@ input, select, textarea {
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
-		height: 420px;
+		height: 440px;
 	}
+
+	#header-wrapper-venue {
+		background: url("images/bg01.png"), url("../../images/toledo-elgreco.jpg");
+		background-position: top left, center center;
+		background-size: auto, cover;
+		padding: 3em 0;
+		height: 440px;
+	}
+
+	#header-wrapper-people {
+        background: url("images/bg01.png"), url("../../images/toledo-day1.jpg");
+        background-position: top left, center center;
+        background-size: auto, cover;
+        padding: 3em 0;
+		height: 440px;
+    }
+
+	#header-wrapper-abstract {
+        background: url("images/bg01.png"), url("../../images/toledo-night2.jpg");
+        background-position: top left, center center;
+        background-size: auto, cover;
+        padding: 3em 0;
+		height: 440px;
+    }
+
+	#header-wrapper-coc {
+        background: url("images/bg01.png"), url("../../images/toledo-bridge-day.jpg");
+        background-position: top left, center center;
+        background-size: auto, cover;
+        padding: 3em 0;
+		height: 440px;
+    }
 
 	#main-wrapper {
 		background: #fff;
