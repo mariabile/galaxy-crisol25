@@ -1881,7 +1881,7 @@ input, select, textarea {
 	#header-wrapper-venue {
 		background: url("images/bg01.png"), url("../../images/toledo-elgreco.jpg");
 		background-position: top left, center center;
-		background-size: auto, cover;
+		background-size: cover, cover;
 		padding: 3em 0;
 		height: 440px;
 	}
@@ -1889,15 +1889,15 @@ input, select, textarea {
 	#header-wrapper-people {
         background: url("images/bg01.png"), url("../../images/toledo-day1.jpg");
         background-position: top left, center center;
-        background-size: auto, cover;
+        background-size: cover, cover;
         padding: 3em 0;
 		height: 440px;
     }
 
 	#header-wrapper-abstract {
-        background: url("images/bg01.png"), url("../../images/toledo-night2.jpg");
+        background: url("images/bg01.png"), url("../../images/toledo-night1.jpg");
         background-position: top left, center center;
-        background-size: auto, cover;
+        background-size: cover, cover;
         padding: 3em 0;
 		height: 440px;
     }
@@ -1905,7 +1905,7 @@ input, select, textarea {
 	#header-wrapper-coc {
         background: url("images/bg01.png"), url("../../images/toledo-bridge-day.jpg");
         background-position: top left, center center;
-        background-size: auto, cover;
+        background-size: cover, cover;
         padding: 3em 0;
 		height: 440px;
     }
