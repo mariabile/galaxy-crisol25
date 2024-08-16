@@ -1936,6 +1936,19 @@ input, select, textarea {
 		padding: 7em 0 7em 0;
 	}
 
+	#footer-wrapper-logo{
+		background-image:  url("images/bg05.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
+        padding: 3em 0;
+		height: 360px;
+	}
+
+
 	.wrapper {
 		padding: 7em 0 7em 0;
 	}
