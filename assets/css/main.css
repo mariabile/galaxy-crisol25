@@ -1874,13 +1874,18 @@ input, select, textarea {
 		padding: 3em 0;
 	}
 
-	#header-wrapper-home {
+		#header-wrapper-home {
 		background: url("images/bg01.png"), url("../../images/incred_cover.jpg");
-		background-position: top left, center center;
-		background-size: auto, cover;
-		padding: 3em 0;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
+        padding: 3em 0;
 		height: 440px;
+
 	}
+
 
 	#header-wrapper-venue {
 		background: url("../../images/toledo-elgreco.jpg");
