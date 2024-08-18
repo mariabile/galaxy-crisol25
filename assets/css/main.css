@@ -1884,9 +1884,13 @@ input, select, textarea {
 
 	#header-wrapper-venue {
 		background: url("../../images/toledo-elgreco.jpg");
-		background-position: top left, center center;
-		background-size: cover, cover;
-		padding: 3em 0;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: bottom;
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
+        padding: 3em 0;
 		height: 440px;
 	}
 
@@ -1904,19 +1908,60 @@ input, select, textarea {
     }
 
 	#header-wrapper-abstract {
-        background:  url("../../images/toledo-night1.jpg");
-        background-position: top left, center center;
-        background-size: cover, cover;
+        background:  url("../../images/toledo-sunset.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top;
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
         padding: 3em 0;
 		height: 440px;
     }
 
-	#header-wrapper-coc {
+	#header-wrapper-scientific {
         background:  url("../../images/toledo-bridge-day.jpg");
-        background-position: top left, center center;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
+        padding: 3em 0;
+		height: 440px;
+    }
+
+	#header-wrapper-poster {
+        background:  url("../../images/toledo-bridge-night2.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
+        padding: 3em 0;
+		height: 440px;
+    }
+
+	#header-wrapper-social {
+        background:  url("../../images/toledo-bridge-night3.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
+        padding: 3em 0;
+		height: 440px;
+    }
+
+
+	#header-wrapper-coc {
+        background:  url("../../images/toledo-night1.jpg");
+        background-position: top left, center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top;
 		height: 100%;
 		width: 100%;
 		object-fit: contain;
